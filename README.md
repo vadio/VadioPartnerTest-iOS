@@ -1,0 +1,1 @@
+# VadioPartnerTest-iOS
