@@ -7,7 +7,7 @@ This is intended to allow you to share tests of your use cases with us. After ge
 
 After forking the repo, you will need to add the version of the VadioSDK you'd like to test with. Add a folder at the same level as the repository named `_deps` and drop the whole `VadioSDK` folder into it.
 
-Create a plist called credentials.plist and put it into the `_deps` folder as well. It should contain only one key pair usin the key `vadio_api_key`, and value should be your api key.
+Create a plist called credentials.plist and put it into the `_deps` folder as well. It should contain only one key pair using the key `vadio_api_key`, and value should be your api key.
 
 Directory structure:
 ```
