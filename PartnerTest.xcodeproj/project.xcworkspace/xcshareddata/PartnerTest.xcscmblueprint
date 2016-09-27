@@ -1,16 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++238485A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9" : 9223372036854775807,
-    "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D" : 9223372036854775807
+    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++62F5389" : 9223372036854775807,
+    "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D+++FFB27A8" : 9223372036854775807,
+    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++5F5C5A5" : 9223372036854775807,
+    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++238485A" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FABC0D18-F4AC-4D5A-BA7C-14C852B36998",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9" : "",
-    "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D" : ".."
+    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++62F5389" : "",
+    "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D+++FFB27A8" : "..",
+    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++5F5C5A5" : "",
+    "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++238485A" : "Template\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "PartnerTest",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -19,17 +23,22 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vadio\/VadioiOSSDK.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D+++FFB27A8"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vadio\/VadioPartnerTest-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++238485A"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vadio\/VadioPartnerTest-iOS.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++5F5C5A5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vadio\/VadioPartnerTest-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++62F5389"
     }
   ]
 }

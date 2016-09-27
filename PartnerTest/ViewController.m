@@ -46,5 +46,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)playerReady {
+    VADUnresolvedDescriptor *desc = [[VADUnresolvedDescriptor alloc] initWithArtist:@"Ariana Grande" title:@"Side to Side"];
+    [self.vadio queueNewItems:@[desc]];
+}
 
+- (void)newPlaylistItem:(VADMediaDescriptor *)item availableForHandle:(NSString *)handle {
+    
+}
+
+- (void)playerError:(NSError*)error critical:(BOOL)critical {
+    NSLog(@"%@", [error.userInfo objectForKey:@"message"]);
+}
+
+- (void)playerWarning:(NSString *)warning {
+    NSLog(@"%@", warning);
+}
 @end

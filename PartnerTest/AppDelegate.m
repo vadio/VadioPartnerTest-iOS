@@ -22,10 +22,11 @@
     NSMutableDictionary *dictplist =[[NSMutableDictionary alloc] initWithContentsOfFile:path];
     
     VADSDKOptions *options = [VADSDKOptions defaultOptions];
-    options.apiKey = @"a312611d6533d720bb2eed350ab631e0dcb466d7"; //[dictplist objectForKey:@"vadio_api_key"];
+    options.apiKey = [dictplist objectForKey:@"vadio_api_key"];
     options.appName = @"demoApp";
     
-    InitializeVadio([VADSDKOptions defaultOptions], self);
+    PrefetchVadioSettings(@[@"fd7705921e00ed7cde75ffa1450b91ab"]);
+    InitializeVadio(options, self);
     
     return YES;
 }
