@@ -24,7 +24,7 @@
     vadioPlayerOptions.playlistViewType = VADPlaylistViewTypeVertical;
     vadioPlayerOptions.autoPlay = YES;
     //The handle must be unique for each player instance in your app.
-    vadioPlayerOptions.handle = @"fd7705921e00ed7cde75ffa1450b91ab";
+    vadioPlayerOptions.handle = @"86fe059034c330715a8028cc6572f04f";
     
     VADMediaSelector *selector = nil;
     self.vadio = CreateVadioPlayer(vadioPlayerOptions, selector, self);
@@ -47,8 +47,10 @@
 }
 
 - (void)playerReady {
-    VADUnresolvedDescriptor *desc = [[VADUnresolvedDescriptor alloc] initWithArtist:@"Ariana Grande" title:@"Side to Side"];
-    [self.vadio queueNewItems:@[desc]];
+    VADUnresolvedDescriptor *desc = [[VADUnresolvedDescriptor alloc] initWithArtist:@"david guetta" title:@"dangerous"];
+    VADUnresolvedDescriptor *desc2 = [[VADUnresolvedDescriptor alloc] initWithArtist:@"red hot chili peppers" title:@"under the bridge"];
+    VADUnresolvedDescriptor *desc3 = [[VADUnresolvedDescriptor alloc] initWithArtist:@"Ariana Grande" title:@"Side to Side"];
+    [self.vadio queueNewItems:@[desc, desc2, desc3]];
 }
 
 - (void)newPlaylistItem:(VADMediaDescriptor *)item availableForHandle:(NSString *)handle {
