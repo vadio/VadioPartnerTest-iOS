@@ -5,6 +5,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++62F5389" : 9223372036854775807,
+    "8A29DA7057736C875D47E25C1221D68557445C94+++9A89140" : 9223372036854775807,
     "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D+++FFB27A8" : 9223372036854775807,
     "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++5F5C5A5" : 9223372036854775807,
     "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++238485A" : 9223372036854775807
@@ -12,6 +13,7 @@
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FABC0D18-F4AC-4D5A-BA7C-14C852B36998",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++62F5389" : "",
+    "8A29DA7057736C875D47E25C1221D68557445C94+++9A89140" : "..\/VadioSDKDemo\/Dependencies\/youtube",
     "B82EEE4D29EA4D9FC8CFC562F3EB67CDFE959E0D+++FFB27A8" : "..",
     "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++5F5C5A5" : "",
     "DBD005E291EEEF4E4988BAA634DD825BA545E5F9+++238485A" : "Template\/"
@@ -20,6 +22,11 @@
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PartnerTest.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/youtube\/youtube-ios-player-helper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A29DA7057736C875D47E25C1221D68557445C94+++9A89140"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:vadio\/VadioiOSSDK.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
