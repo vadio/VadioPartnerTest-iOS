@@ -21,7 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     VADPlayerOptions *vadioPlayerOptions = [VADPlayerOptions defaultOptions];
     vadioPlayerOptions.externalViewMode = VADExternalViewModeFullscreen;
-    vadioPlayerOptions.playlistViewType = VADPlaylistViewTypeVertical;
+    vadioPlayerOptions.playlistOptions.playlistViewType = VADPlaylistViewTypeVertical;
     vadioPlayerOptions.autoPlay = YES;
     //The handle must be unique for each player instance in your app.
     vadioPlayerOptions.handle = @"86fe059034c330715a8028cc6572f04f";
