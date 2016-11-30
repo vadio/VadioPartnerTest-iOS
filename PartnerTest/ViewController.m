@@ -21,7 +21,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     VADPlayerOptions *vadioPlayerOptions = [VADPlayerOptions defaultOptions];
     vadioPlayerOptions.externalViewMode = VADExternalViewModeFullscreen;
-    vadioPlayerOptions.playlistOptions.playlistViewType = VADPlaylistViewTypeVertical;
     vadioPlayerOptions.autoPlay = YES;
     //The handle must be unique for each player instance in your app.
     vadioPlayerOptions.handle = @"86fe059034c330715a8028cc6572f04f";
@@ -47,9 +46,9 @@
 }
 
 - (void)playerReady {
-    VADUnresolvedDescriptor *desc = [[VADUnresolvedDescriptor alloc] initWithArtist:@"david guetta" title:@"dangerous"];
-    VADUnresolvedDescriptor *desc2 = [[VADUnresolvedDescriptor alloc] initWithArtist:@"red hot chili peppers" title:@"under the bridge"];
-    VADUnresolvedDescriptor *desc3 = [[VADUnresolvedDescriptor alloc] initWithArtist:@"Ariana Grande" title:@"Side to Side"];
+    VADUnresolvedDescriptor *desc = [[VADUnresolvedDescriptor alloc] initWithArtist:@"david guetta" title:@"dangerous" trackingID:nil ytContentId:nil];
+    VADUnresolvedDescriptor *desc2 = [[VADUnresolvedDescriptor alloc] initWithArtist:@"red hot chili peppers" title:@"under the bridge" trackingID:nil ytContentId:nil];
+    VADUnresolvedDescriptor *desc3 = [[VADUnresolvedDescriptor alloc] initWithArtist:@"Ariana Grande" title:@"Side to Side" trackingID:nil ytContentId:nil];
     [self.vadio queueNewItems:@[desc, desc2, desc3]];
 }
 
